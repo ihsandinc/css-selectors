@@ -20,7 +20,7 @@
 
   If you wanted to avoid the sidebar paragraphs and select only the first <p> in our 
   <div class='page'>, you would need to limit its scope using a child selector, like so:
-  
+
 .page > p:first-of-type {
   color: #7E8184;
   font-style: italic;
@@ -101,4 +101,8 @@
 
   p:last-of-type {
     margin-bottom: 50px;
+  }
+
+  #button-2 {
+    color: #5D6063;  /* Dark gray */
   }
